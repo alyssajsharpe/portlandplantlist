@@ -1,0 +1,227 @@
+{
+  "source": "Portland Plant List – Native Plants",
+  "description": "A selection of native plants from the City of Portland's official Portland Plant List, organized by plant category.",
+  "plants": [
+    {
+      "id": 1,
+      "common_name": "Douglas-fir",
+      "scientific_name": "Pseudotsuga menziesii",
+      "category": "Large Tree",
+      "max_height_ft": 250,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Any moisture",
+      "native_to_portland": true,
+      "notes": "Oregon's state tree; iconic conifer of the Pacific Northwest.",
+      "images": ["https://plants.sc.egov.usda.gov/ImageLibrary/original/psme_004_pvp.jpg", "https://plants.sc.egov.usda.gov/ImageLibrary/original/psme_016_php.jpg", "https://plants.sc.egov.usda.gov/ImageLibrary/original/psme_010_php.jpg"]
+    },
+    {
+      "id": 2,
+      "common_name": "Bigleaf Maple",
+      "scientific_name": "Acer macrophyllum",
+      "category": "Large Tree",
+      "max_height_ft": 100,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Moist to seasonally wet",
+      "native_to_portland": true,
+      "notes": "Largest maple native to the Pacific Northwest; supports diverse wildlife."
+    },
+    {
+      "id": 3,
+      "common_name": "Western Red Cedar",
+      "scientific_name": "Thuja plicata",
+      "category": "Large Tree",
+      "max_height_ft": 200,
+      "sun_requirement": "Full Sun to Part Shade",
+      "moisture_conditions": "Moist to seasonally wet",
+      "native_to_portland": true,
+      "notes": "Long-lived, aromatic conifer; culturally significant to Indigenous peoples of the PNW."
+    },
+    {
+      "id": 4,
+      "common_name": "Red Alder",
+      "scientific_name": "Alnus rubra",
+      "category": "Large Tree",
+      "max_height_ft": 80,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Any moisture",
+      "native_to_portland": true,
+      "notes": "Fast-growing nitrogen-fixer; commonly found along streambanks."
+    },
+    {
+      "id": 5,
+      "common_name": "Vine Maple",
+      "scientific_name": "Acer circinatum",
+      "category": "Small Tree",
+      "max_height_ft": 25,
+      "sun_requirement": "Full Sun to Full Shade",
+      "moisture_conditions": "Moist to seasonally wet",
+      "native_to_portland": true,
+      "notes": "Stunning fall color; grows as a shrub or small tree depending on light."
+    },
+    {
+      "id": 6,
+      "common_name": "Cascara",
+      "scientific_name": "Rhamnus purshiana",
+      "category": "Small Tree",
+      "max_height_ft": 30,
+      "sun_requirement": "Full Sun to Part Shade",
+      "moisture_conditions": "Moist to seasonally wet",
+      "native_to_portland": true,
+      "notes": "Berries are important food source for birds; bark has medicinal uses."
+    },
+    {
+      "id": 7,
+      "common_name": "Red-flowering Currant",
+      "scientific_name": "Ribes sanguineum",
+      "category": "Large Shrub",
+      "max_height_ft": 10,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Dry to moist",
+      "native_to_portland": true,
+      "notes": "Early spring bloomer with showy pink-red flowers; attracts hummingbirds."
+    },
+    {
+      "id": 8,
+      "common_name": "Tall Oregon Grape",
+      "scientific_name": "Mahonia aquifolium",
+      "category": "Large Shrub",
+      "max_height_ft": 8,
+      "sun_requirement": "Full Sun to Part Shade",
+      "moisture_conditions": "Dry to moist",
+      "native_to_portland": true,
+      "notes": "Oregon's state flower; evergreen with yellow flowers and blue berries."
+    },
+    {
+      "id": 9,
+      "common_name": "Nootka Rose",
+      "scientific_name": "Rosa nutkana",
+      "category": "Large Shrub",
+      "max_height_ft": 6,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Any moisture",
+      "native_to_portland": true,
+      "notes": "Fragrant pink flowers; rose hips provide winter food for birds and mammals."
+    },
+    {
+      "id": 10,
+      "common_name": "Blue Elderberry",
+      "scientific_name": "Sambucus cerulea",
+      "category": "Large Shrub",
+      "max_height_ft": 20,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Any moisture",
+      "native_to_portland": true,
+      "notes": "Clusters of blue-black berries attract birds; flowers are edible."
+    },
+    {
+      "id": 11,
+      "common_name": "Salal",
+      "scientific_name": "Gaultheria shallon",
+      "category": "Small Shrub",
+      "max_height_ft": 5,
+      "sun_requirement": "Full Sun to Full Shade",
+      "moisture_conditions": "Dry to moist",
+      "native_to_portland": true,
+      "notes": "Excellent evergreen groundcover; edible dark berries."
+    },
+    {
+      "id": 12,
+      "common_name": "Common Snowberry",
+      "scientific_name": "Symphoricarpos albus",
+      "category": "Small Shrub",
+      "max_height_ft": 5,
+      "sun_requirement": "Full Sun to Full Shade",
+      "moisture_conditions": "Any moisture",
+      "native_to_portland": true,
+      "notes": "White berries persist through winter; tolerates a wide range of conditions."
+    },
+    {
+      "id": 13,
+      "common_name": "Common Yarrow",
+      "scientific_name": "Achillea millefolium",
+      "category": "Perennial Forb",
+      "max_height_ft": 2,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Dry",
+      "native_to_portland": true,
+      "notes": "Flat-topped white flower clusters; drought tolerant and pollinator-friendly."
+    },
+    {
+      "id": 14,
+      "common_name": "Common Camas",
+      "scientific_name": "Camassia quamash",
+      "category": "Perennial Forb",
+      "max_height_ft": 2,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Seasonally wet",
+      "native_to_portland": true,
+      "notes": "Stunning blue-purple spring blooms; bulb was a staple food for Indigenous peoples."
+    },
+    {
+      "id": 15,
+      "common_name": "Western Red Columbine",
+      "scientific_name": "Aquilegia formosa",
+      "category": "Perennial Forb",
+      "max_height_ft": 3,
+      "sun_requirement": "Full Sun to Part Shade",
+      "moisture_conditions": "Dry to moist",
+      "native_to_portland": true,
+      "notes": "Red and yellow nodding flowers; a favorite of hummingbirds."
+    },
+    {
+      "id": 16,
+      "common_name": "Fireweed",
+      "scientific_name": "Chamerion angustifolium",
+      "category": "Perennial Forb",
+      "max_height_ft": 5,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Dry to moist",
+      "native_to_portland": true,
+      "notes": "Vibrant magenta flower spikes; pioneer species after disturbances like wildfires."
+    },
+    {
+      "id": 17,
+      "common_name": "Lady Fern",
+      "scientific_name": "Athyrium filix-femina",
+      "category": "Fern",
+      "max_height_ft": 4,
+      "sun_requirement": "Part Shade to Full Shade",
+      "moisture_conditions": "Moist to wet",
+      "native_to_portland": true,
+      "notes": "Large, lacy fronds; one of Portland's most common native ferns."
+    },
+    {
+      "id": 18,
+      "common_name": "Tufted Hairgrass",
+      "scientific_name": "Deschampsia caespitosa",
+      "category": "Grass",
+      "max_height_ft": 3,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Moist to perennially wet",
+      "native_to_portland": true,
+      "notes": "Clump-forming grass with delicate, airy seed heads; great for wet areas."
+    },
+    {
+      "id": 19,
+      "common_name": "Slough Sedge",
+      "scientific_name": "Carex obnupta",
+      "category": "Sedge",
+      "max_height_ft": 4,
+      "sun_requirement": "Full Sun to Part Shade",
+      "moisture_conditions": "Seasonally wet to submerged",
+      "native_to_portland": true,
+      "notes": "Excellent for rain gardens and wetland edges; provides cover for wetland birds."
+    },
+    {
+      "id": 20,
+      "common_name": "Cattail",
+      "scientific_name": "Typha latifolia",
+      "category": "Rush",
+      "max_height_ft": 8,
+      "sun_requirement": "Full Sun",
+      "moisture_conditions": "Seasonally wet to submerged",
+      "native_to_portland": true,
+      "notes": "Iconic wetland plant; provides nesting material and food for marsh birds."
+    }
+  ]
+}
