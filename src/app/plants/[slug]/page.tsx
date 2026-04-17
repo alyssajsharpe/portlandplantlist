@@ -7,6 +7,7 @@ import { JSX } from "react";
 import Image from "next/image";
 import useEmblaCarousel from 'embla-carousel-react'
 import Carousel from "@/components/carousel/Carousel";
+import placeholder from "../../../../public/placeholder.png";
 
 export default async function PlantPage({
   params
@@ -43,8 +44,13 @@ export default async function PlantPage({
           </div>
         </div>   
         <div className={styles.imageWrapper}>
-            <Carousel plant={plant}/>
-       
+            {/* <Carousel plant={plant}/> */}
+             <Image
+              src={plant?.images && plant?.images[0] || placeholder}
+              height={400}
+              width={400}
+              alt={`Picture of ${plant?.scientific_name}`}
+            />
         </div>
       </div>
     </div>
