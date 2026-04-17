@@ -1,0 +1,84 @@
+@use '@/styles/_variables.module' as *;
+
+.footer {
+    margin-top: auto;
+    z-index: 999; 
+    height: 150px;
+    background-color: $base;
+    width: 100%;
+
+    @media screen and (max-width: 900px) {
+        height: auto;
+    }
+    
+    .footerWrapper {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+
+        @media screen and (max-width: 900px) {
+            flex-direction: column;
+        }
+
+        .footerLeft {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            align-items: center;
+            gap: 20px;
+
+            .footerLinks {
+                display: flex;
+                flex-direction: row;
+                color: $font;
+                text-decoration: underline;
+                gap: 16px;
+            }
+
+            @media screen and (max-width: 900px) {
+                width: 100%;
+                justify-content: center;
+            }
+
+            h2 {
+               color: $font;
+            }  
+        }
+
+        .footerRight {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            align-items: center;
+            gap: 10px;
+            justify-content: right;
+
+
+
+            .footerImages {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                @media screen and (max-width: 900px) {
+                    justify-content: center;
+                }
+            }
+
+            @media screen and (max-width: 900px) {
+                width: 100%;
+                justify-content: center;
+                button {
+                    width: 100%;
+                }
+            }
+
+            @media screen and (max-width: 650px) {
+                flex-direction: column;
+            }
+
+            p {
+               color: $offWhite;
+            }
+        }
+    }
+}

@@ -1,11 +1,11 @@
-import styles from "./page.module.scss";
+import Image from "next/image";
+import styles from "./page.module.css";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "@/components/navigation/Footer";
 
-export default function PlantsPage() {
-
+export default function About() {
   return (
-    <>
+     <>
     <Navigation/>
     <div className={styles.page}>
       <h2>Native plants and why they're important</h2>

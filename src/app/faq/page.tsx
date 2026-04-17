@@ -1,8 +1,10 @@
-import styles from "./page.module.scss";
+import Image from "next/image";
+import styles from "./page.module.css";
+import plantJson from "../../json/portland_plants.json";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "@/components/navigation/Footer";
 
-export default function PlantsPage() {
+export default function Faq() {
 
   return (
     <>

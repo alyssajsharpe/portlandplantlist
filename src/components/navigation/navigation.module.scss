@@ -1,0 +1,65 @@
+@use '@/styles/_variables.module' as *;
+
+.nav {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 999; 
+    height: 150px;
+    background-color: $base;
+
+    @media screen and (max-width: 600px) {
+        height: auto;
+    }
+
+
+    .header {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+
+
+        .headerLeft {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            align-items: center;
+            gap: 20px;
+
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+
+            h2 {
+               color: $font;
+            }  
+        }
+
+        .headerRight {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            align-items: center;
+            gap: 20px;
+            justify-content: right;
+
+            @media screen and (max-width: 600px) {
+                width: 100%;
+                justify-content: left;
+                button {
+                    width: 100%;
+                }
+            }
+
+            p, a {
+               color: $font;
+               font-size: 24px;
+               font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@use '@/styles/_variables.module' as *;
+
+.sidebarWrapper {
+    width: 20%;
+    //background-color: #e2e2e2;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 6px 16px -2px rgba(38,42,130,.12), 0 0 0 5px rgba(0,0,0,0);
+
+     @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
+
+
+    .filterItems {
+        .filter {
+            margin: 40px 0;
+
+            h5 {
+                margin: 0 0 10px 0;
+            }
+        }
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+        
+        .itemWrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            
+            label{
+                color: $black;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}
