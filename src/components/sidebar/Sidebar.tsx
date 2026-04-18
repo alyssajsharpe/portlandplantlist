@@ -22,6 +22,7 @@ export default function Sidebar({
   setSliderValueAction: (value: number) => void;
 }) {
 
+  const [showFilters, setShowFilters] = useState<boolean>(true);
   
   // Filter update functions
   function updateTypeFilter(value: string, checked: boolean) {
@@ -66,6 +67,7 @@ export default function Sidebar({
   return (
     <div className={styles.sidebarWrapper}>
       <h3>Total plants ({resultsSize})</h3>
+      {showFilters &&
         <div className={styles.filterItems}>
           <div className={styles.filter}>
             <h5>Type</h5>
@@ -259,8 +261,10 @@ export default function Sidebar({
               </div>
             </div>
           </div>
+          <button className="button secondary" onClick={resetFiltersAction}>Reset filters</button>
         </div>
-      <button className="button contrast" onClick={resetFiltersAction}>Reset filters</button>
+        }
+        <button className="button contrast" onClick={() => setShowFilters(!showFilters)} >{!showFilters ? 'Show Filters' : 'Hide Filters'}</button>
     </div>
   );
 }
