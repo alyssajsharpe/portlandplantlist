@@ -23,12 +23,10 @@ export default function Sidebar({
 }) {
 
   const [showFilters, setShowFilters] = useState(true);
-  const [isMobile, setIsMobile] = useState(false);
+  //const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const mobile = window.innerWidth <= 768;
-    setIsMobile(mobile);
-
     if (mobile) {
       setShowFilters(false);
     } else {

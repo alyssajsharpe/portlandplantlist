@@ -13,7 +13,7 @@ export default function Navigation() {
                 width={150}
                 height={100}
               />
-              <h2>Portland Area Native Plants & Weeds</h2>
+              <h2 className="h3">Portland Native Plants & Weeds</h2>
             </div>
             <div className={styles.headerRight}>
                 <a href="/about">

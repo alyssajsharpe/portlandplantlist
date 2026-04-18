@@ -52,7 +52,7 @@ a {
 
 
 
-h1 {
+h1, .h1 {
   font-size: 46px;
   font-weight: 700;
   color: $black;
@@ -62,7 +62,7 @@ h1 {
   }
 }
 
-h2 {
+h2, .h2 {
   font-size: 40px;
   font-weight: 700;
   color: $black;
@@ -73,7 +73,7 @@ h2 {
 }
 
 
-h3 {
+h3, .h3 {
   font-size: 32px;
   font-weight: 600;
   color: $black;
@@ -83,7 +83,7 @@ h3 {
   }
 }
 
-h4 {
+h4, .h4 {
   font-size: 28px;
   font-weight: 600;
   color: $black;
@@ -94,7 +94,7 @@ h4 {
 }
 
 
-h5 {
+h5, .h5 {
   font-size: 20px;
   font-weight: 600;
   color: $black;
