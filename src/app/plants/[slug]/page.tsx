@@ -1,4 +1,4 @@
-"use client"
+
 import styles from "./page.module.scss";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/navigation/Footer";
@@ -59,3 +59,9 @@ export default async function PlantPage({
   );
 }
 
+
+// Todo
+// Fix mobile for home and plants page
+// Pagination
+// Fix carousel
+// Update plant page UI to look like the pet adoption page

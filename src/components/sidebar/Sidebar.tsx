@@ -65,7 +65,7 @@ export default function Sidebar({
 
   return (
     <div className={styles.sidebarWrapper}>
-      <h3>Total plants: ({resultsSize})</h3>
+      <h3>Total plants ({resultsSize})</h3>
         <div className={styles.filterItems}>
           <div className={styles.filter}>
             <h5>Type</h5>

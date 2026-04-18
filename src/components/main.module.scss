@@ -11,6 +11,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
         gap: 10px;
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
     }
 
     .card {
@@ -25,11 +29,6 @@
         position: relative;
         z-index: 9;
         transition: box-shadow .18s ease, border-color .18s ease;
-     
-        @media screen and (max-width: 768px) {
-            padding: clamp(16px, 3vw, 32px);
-        }
-
 
         .cardContent {
             width: 100%;
@@ -50,6 +49,8 @@
                 background-size: cover;
                 background-position: center;
                 border-bottom: 1px solid #e2e2e2;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
             }
 
             .cardInfo {
